@@ -21,5 +21,7 @@ def throttle(Session):
             self._wait()
             return super().send(*args, **kwargs)
 
+    return ThrottledSession
+
 
 Session = throttle(requests.Session)

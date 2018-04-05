@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='requests_throttled',
-      version='0.2',
+      version='0.3',
       description='Throttling requests.Session.',
       url='http://github.com/zaquest/requests_throttled',
       author='zaquest',
